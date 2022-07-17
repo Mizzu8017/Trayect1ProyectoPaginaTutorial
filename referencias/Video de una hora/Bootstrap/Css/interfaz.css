@@ -1,0 +1,15 @@
+body {
+  background-image: url(https://w.wallhaven.cc/full/k7/wallhaven-k7q2o6.png);
+}
+
+.bg-white {
+  background-color: white;
+}
+
+#descripcion {
+  resize: none;
+}
+.centrado {
+  text-align: center;
+  vertical-align: middle;
+}
