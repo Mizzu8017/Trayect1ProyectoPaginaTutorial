@@ -1,3 +1,5 @@
 body {
-  background-image: url(/Proyecto/img/crepperUwu.jpg);
+  min-height: 100vh;
+  background-image: url(./img/crepperUwu.jpg);
+  background-size: cover;
 }
