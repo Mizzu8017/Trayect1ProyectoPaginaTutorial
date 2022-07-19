@@ -1,21 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="boostrap/bootstrap.min.css" />
+    <script src="boostrap/bootstrap.bundle.min.js"></script>
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="Css/a.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <!--Bootstrap-->
-  <link rel="stylesheet" href="boostrap/bootstrap.min.css">
-  <script src="boostrap/bootstrap.bundle.min.js"></script>
-  <!--Custom CSS-->
-  <link rel="stylesheet" href="Css/a.css">
-</head>
+  <body>
+    <nav
+      id="navbar-example3"
+      class="navbar bg-light flex-column align-items-stretch p-3"
+    >
+      <a class="navbar-brand" href="#">Navbar</a>
+      <nav class="nav nav-pills flex-column">
+        <a class="nav-link" href="#item-1">Item 1</a>
+        <nav class="nav nav-pills flex-column">
+          <a class="nav-link ms-3 my-1" href="#item-1-1">Item 1-1</a>
+          <a class="nav-link ms-3 my-1" href="#item-1-2">Item 1-2</a>
+        </nav>
+        <a class="nav-link" href="#item-2">Item 2</a>
+        <a class="nav-link" href="#item-3">Item 3</a>
+        <nav class="nav nav-pills flex-column">
+          <a class="nav-link ms-3 my-1" href="#item-3-1">Item 3-1</a>
+          <a class="nav-link ms-3 my-1" href="#item-3-2">Item 3-2</a>
+        </nav>
+      </nav>
+    </nav>
 
-<body>
+    <div
+      data-bs-spy="scroll"
+      data-bs-target="#navbar-example3"
+      data-bs-smooth-scroll="true"
+      tabindex="0"
+    >
+      <div id="item-1">
+        <h4>Item 1</h4>
+        <p>...</p>
+      </div>
+      <div id="item-1-1">
+        <h5>Item 1-1</h5>
+        <p>...</p>
+      </div>
+      <div id="item-1-2">
+        <h5>Item 1-2</h5>
+        <p>...</p>
+      </div>
+      <div id="item-2">
+        <h4>Item 2</h4>
+        <p>...</p>
+      </div>
+      <div id="item-3">
+        <h4>Item 3</h4>
+        <p>...</p>
+      </div>
+      <div id="item-3-1">
+        <h5>Item 3-1</h5>
+        <p>...</p>
+      </div>
 
-
-</body>
-
+      <div id="item-3-2">
+        <h5>Item 3-2</h5>
+        <p>...</p>
+      </div>
+    </div>
+  </body>
 </html>

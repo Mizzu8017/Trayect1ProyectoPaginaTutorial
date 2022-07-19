@@ -1,6 +1,17 @@
 body {
-  background-image: url(/img/crepperUwu.jpg);
+  /* background-image: url(/img/crepperUwu.jpg);
   min-height: 100vh;
   background-image: url(./img/crepperUwu.jpg);
   background-size: cover;
+  background-image: url(./img/logo.jpg);*/
+}
+
+#navbar-example3 {
+  background-image: url(./img/logo.jpg);
+  min-height: 71vh;
+  min-width: 71vh;
+  background-size: cover;
+}
+#color {
+  background-color: rgba(124, 75, 202, 0.512);
 }

@@ -1,149 +1,318 @@
 <!DOCTYPE html>
-<html lang="es">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ram Project</title>
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-  <!--Bootstrap-->
-  <link rel="stylesheet" href="boostrap/bootstrap.min.css">
-  <!--Custom CSS-->
-  <link rel="stylesheet" href="Css/a.css">
-</head>
-
-<body>
-
-  <!--===========================>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ram Project</title>
+    <link
+      rel="shortcut icon"
+      href="./Css/img/favicon.ico"
+      type="image/x-icon"
+    />
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="./boostrap/bootstrap.min.css" />
+    <!--Custom Css-->
+    <link rel="stylesheet" href="./Css/a.css" />
+  </head>
+  <body>
+    <header class="sticky-top">
+      <!--===========================>
   Menu de navegacion entre paginas
   <=============================-->
-  <header>
-    <nav class="navbar bg-dark">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="./Css/img/Logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
-          Ram Project
-          <div class="col-12">
-            <ul class="nav nav-tabs">
-              <li class="nav-item">
-                <a class="nav-link active navbar-dark" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li>
-            </ul>
-        </a>
-      </div>
-      </div>
-    </nav>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <img src="./Css/img/Logo.png" alt="" width="30" height="24">
-        <a class="navbar-brand" href="#">Ram Project</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pag2.html">pag2</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pag3.html">pag3</a>
-            </li>
-          </ul>
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark bg-opacity-75">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="./Css/img/Logo.png"
+              alt=""
+              width="30"
+              height="24"
+              class="d-inline-block align-text-top"
+            />
+            Ram Project
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Home</a
+              >
+              <a class="nav-link" href="./pag2.html"
+                >Mantenimiento Preventivo</a
+              >
+              <a class="nav-link" href="./pag3.html"
+                >Mantenimiento Correctivo</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <div
+            id="carouselExampleSlidesOnly"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./Css/img/aniComponentes.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./Css/img/crepperUwu.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./Css/img/aniTarjetaMadre.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </nav>
-  </header>
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <!--===========================>
-                  Inicio de la pagina
-              <=============================-->
-        <img src="img/aniComponentes.jpg" class="img-fluid" alt="" width="600">
-      </div>
     </div>
-  </nav>
-  <h1>gei</h1>
-  </div>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-8">
-        <h1>gei</h1>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-8" id="color">
+          <h1>Hadarwe y Sotfware</h1>
+          <div
+            data-bs-spy="scroll"
+            data-bs-target="#navbar-example3"
+            data-bs-smooth-scroll="true"
+            tabindex="0"
+          >
+            <h2>¿Qué es el hardware de la computadora?</h2>
 
-      </div>
-      <div class="col-4">
-        <!--===========================>
-          Indice de la pagination
-      <=============================-->
+            <div id="item-1">
+              <h4>¿Qué es el hardware de la computadora?</h4>
+              <p class="text-center">
+                ¿Quieres saber qué hardware está en su computadora? Convertirse
+                en un equipo pro con nuestra guía rápida de estos componentes
+                esenciales y sus funciones. Simplemente, equipo de hardware de
+                los componentes físicos, que un sistema informático requiere
+                para funcionar. Abarca todo con una placa de circuito que opera
+                dentro de un PC o portátil; incluyendo la placa base, tarjeta
+                gráfica, CPU (Unidad Central de Procesamiento), ventiladores,
+                webcam, fuente de alimentación, y así sucesivamente. Aunque el
+                diseño de hardware diferencia entre PCs de escritorio y
+                portátiles debido a sus diferencias en tamaño, el mismo núcleo
+                de los componentes se encuentra en ambos. Sin hardware, no
+                habría manera de ejecutar el software esencial que hace que los
+                ordenadores tan útil. El Software se define como el virtual
+                programas que se ejecutan en su equipo, es decir, sistema
+                operativo, navegador de internet, documentos de procesamiento de
+                textos, etc. Aunque un equipo sólo puede funcionar cuando el
+                hardware y el software están trabajando juntos, la velocidad de
+                un sistema dependerán en gran medida en el hardware utilizado.
+                Cuando la construcción de un nuevo ordenador, o simplemente
+                sustitución de las piezas viejas, usted puede necesitar saber el
+                hardware en su ordenador. El propósito de esta guía es, por
+                tanto, ayudará a entender el funcionamiento interno de su
+                ordenador.
+              </p>
+              <img
+                src="./Css/img/aniComponentes.jpg"
+                class="rounded float-end"
+                width="300"
+                height="200"
+                alt="..."
+              />
+            </div>
+            <div id="item-1-1">
+              <h5>¿Qué es una Placa base?</h5>
+              <p>
+                La placa base está en el centro de lo que hace un PC de trabajo.
+                Es sede de la CPU y es un centro que todo el hardware que se
+                ejecuta a través de. La placa madre funciona como un cerebro; la
+                asignación de potencia donde se necesita, la comunicación y la
+                coordinación a través de todos los otros componentes – lo que es
+                una de las piezas más importantes del hardware de una
+                computadora. La hora de elegir una placa base, es importante
+                comprobar qué puertos de hardware de la placa base de
+                suministros. Es vital para comprobar cómo muchos puertos USB, y
+                en qué grado (USB 2.0, 3.0, 3.1) son, así como lo que los
+                puertos de pantalla se utilizan (HDMI, DVI, RGB) y cuántos de
+                cada uno hay. Los puertos de la placa base también le ayudará a
+                definir qué otro hardware sea compatible con su ordenador, tales
+                como qué tipo de memoria RAM y la tarjeta de gráficos que puede
+                utilizar. Aunque la placa base es sólo una pieza de un circuito,
+                es la casa de otra de las piezas más importantes de hardware: el
+                procesador.
+              </p>
+            </div>
+            <div id="item-1-2">
+              <h5>¿Qué es un CPU (Central Processing/Procesador la Unidad)?</h5>
+              <p>
+                La CPU (Unidad Central de Procesamiento o procesador) es
+                responsable del procesamiento de toda la información de los
+                programas ejecutados por el ordenador. La "velocidad de reloj',
+                o la velocidad a la que el procesador procesa la información, se
+                mide en gigahercios (GHz). Esto significa que un procesador de
+                publicidad de un GHz alta calificación es probable que realice
+                más rápido que igualmente se especifica procesador de la misma
+                marca y la edad.
+              </p>
+            </div>
+            <div id="item-1-3">
+              <h4>¿Qué es la memoria RAM?</h4>
+              <p>
+                Memoria de Acceso aleatorio, o RAM, es de hardware se encuentran
+                en las ranuras de memoria de la placa base. El papel de la
+                memoria RAM se almacenan temporalmente en la mosca de la
+                información generada por los programas y hacerlo de una manera
+                que hace que estos datos inmediatamente accesible. Las tareas
+                que requieren memoria aleatoria podría ser; la representación de
+                imágenes para el diseño gráfico, editar vídeo o fotografías, la
+                multitarea con varias aplicaciones abiertas (por ejemplo,
+                ejecutar un juego en una pantalla y conversan a través de la
+                Discordia en el otro).
+              </p>
+              <p>
+                La cantidad de memoria RAM que se necesita depende de los
+                programas que se le ejecuta. Intensidad media de juego por lo
+                general usa los 8 gb de memoria cuando se realiza junto con
+                otros programas, pero el video/diseño gráfico puede utilizar más
+                de 16 gb de RAM.
+              </p>
+            </div>
+            <div id="item-1-4">
+              <h5>¿Qué es un Disco Duro?</h5>
+              <p>
+                El disco duro es un dispositivo de almacenamiento responsable de
+                almacenar datos permanentes y temporales. Estos datos vienen en
+                muchas formas diferentes, pero en esencia es lo que se ahorra o
+                instalados en un equipo: por ejemplo, programas de ordenador,
+                fotos de la familia, del sistema operativo, documentos de
+                procesamiento de textos, y así sucesivamente.
+              </p>
+              <p>
+                El disco duro es un dispositivo de almacenamiento responsable de
+                almacenar datos permanentes y temporales. Estos datos vienen en
+                muchas formas diferentes, pero en esencia es lo que se ahorra o
+                instalados en un equipo: por ejemplo, programas de ordenador,
+                fotos de la familia, del sistema operativo, documentos de
+                procesamiento de textos, y así sucesivamente.
+              </p>
+            </div>
+            <div id="item-1-5">
+              <h5>¿Qué es una Unidad de Procesamiento de Gráficos (GPU)?</h5>
+              <p>
+                Especialmente importante para la representación 3D, la GPU hace
+                exactamente lo que su nombre indica y procesos de enormes lotes
+                de datos gráficos. Usted encontrará que su equipo tarjeta de
+                gráficos tiene al menos un GPU. Frente a la básica, en la placa
+                de capacidades gráficas que las placas base de PC de suministro,
+                las tarjetas gráficas dedicadas de interfaz con la placa base a
+                través de una ranura de expansión para trabajar casi
+                exclusivamente en el gráfico de representación. Esto también
+                significa que usted puede actualizar su tarjeta gráfica si usted
+                quiere conseguir un poco más de rendimiento de su PC.
+              </p>
+              <p>
+                No sólo esto, sino que las Gpu actuales desempeñan una amplia
+                computacional de la carga de trabajo más allá de la
+                representación, haciendo de ellos una extensión a la unidad
+                central de procesamiento.
+              </p>
+              <div id="item-1-6">
+                <h5>¿Qué es una Unidad de fuente de Alimentación (PSU)?</h5>
+                <p>
+                  na unidad de suministro de energía, comúnmente abreviado como
+                  fuente de alimentación, no hace más que alimentar el equipo
+                  con la alimentación. Es el punto donde la energía entra en su
+                  sistema a partir de una fuente de alimentación externa y es
+                  entonces asignado por la placa base a uno de los componentes
+                  de hardware. No todas las fuentes de alimentación son iguales
+                  sin embargo, y sin el derecho de vatios fuente de alimentación
+                  de su sistema que no funciona.
+                </p>
 
-        <nav id="navbar-example3" class="navbar bg-dark navbar-dark flex-column align-items-stretch p-3">
-          <a class="navbar-brand" href="#">Indice</a>
-          <nav class="nav nav-pills flex-column">
-            <a class="nav-link" href="#item-1">Item 1</a>
+                <p>
+                  Un moderno equipo generalmente se necesita una fuente de
+                  alimentación nominal entre 500W – 850W efectivamente toda la
+                  potencia de hardware, aunque el tamaño de la fuente de
+                  alimentación va a depender totalmente en el consumo de energía
+                  del sistema. Los equipos que se utilizan para la altamente
+                  intensiva en tareas tales como el diseño gráfico o de juegos
+                  de azar se requieren componentes más potentes y por lo tanto
+                  se necesita un mayor fuente de alimentación para satisfacer
+                  esta necesidad adicional.
+                </p>
+              </div>
+              <div id="item-3-3">
+                <h5></h5>
+                <p></p>
+              </div>
+              <div id="item-3-3">
+                <h5></h5>
+                <p></p>
+              </div>
+              <div id="item-3-3">
+                <h5></h5>
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <nav
+            id="navbar-example3"
+            class="navbar bg-dark navbar-dark flex-column align-items-stretch p-3 sticky-top"
+          >
+            <a class="navbar-brand" href="#">Navegación de la pagina</a>
             <nav class="nav nav-pills flex-column">
-              <a class="nav-link ms-3 my-1" href="#item-1-1">Item 1-1</a>
-              <a class="nav-link ms-3 my-1" href="#item-1-2">Item 1-2</a>
-            </nav>
-            <a class="nav-link" href="#item-2">Item 2</a>
-            <a class="nav-link" href="#item-3">Item 3</a>
-            <nav class="nav nav-pills flex-column">
-              <a class="nav-link ms-3 my-1" href="#item-3-1">Item 3-1</a>
-              <a class="nav-link ms-3 my-1" href="#item-3-2">Item 3-2</a>
+              <a class="nav-link" href="#item-1">Hadware</a>
+              <nav class="nav nav-pills flex-column">
+                <a class="nav-link ms-3 my-1" href="#item-1-1">Placa base</a>
+                <a class="nav-link ms-3 my-1" href="#item-1-2"
+                  >CPU (Central Processing/Procesador la Unidad)</a
+                >
+                <a class="nav-link ms-3 my-1" href="#item-1-3">Memoria RAM?</a>
+                <a class="nav-link ms-3 my-1" href="#item-1-4">Disco Duro?</a>
+                <a class="nav-link ms-3 my-1" href="#item-1-5"
+                  >Unidad de Procesamiento de Gráficos (GPU)</a
+                >
+                <a class="nav-link ms-3 my-1" href="#item-1-6"
+                  >Unidad de fuente de Alimentación (PSU)</a
+                >
+              </nav>
+              <a class="nav-link" href="#item-2">Sotware</a>
+              <nav class="nav nav-pills flex-column">
+                <a class="nav-link ms-3 my-1" href="#item-2-1">Item 3-2</a>
+                <a class="nav-link ms-3 my-1" href="#item-2-2">Item 3-2</a>
+                <a class="nav-link ms-3 my-1" href="#item-2-3">Item 3-1</a>
+                <a class="nav-link ms-3 my-1" href="#item-2-4">Item 3-2</a>
+              </nav>
             </nav>
           </nav>
-        </nav>
-
-        <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" tabindex="0">
-          <div id="item-1">
-            <h4>Item 1</h4>
-            <p>...</p>
-          </div>
-          <div id="item-1-1">
-            <h5>Item 1-1</h5>
-            <p>...</p>
-          </div>
-          <div id="item-1-2">
-            <h5>Item 1-2</h5>
-            <p>...</p>
-          </div>
-          <div id="item-2">
-            <h4>Item 2</h4>
-            <p>...</p>
-          </div>
-          <div id="item-3">
-            <h4>Item 3</h4>
-            <p>...</p>
-          </div>
-          <div id="item-3-1">
-            <h5>Item 3-1</h5>
-            <p>...</p>
-          </div>
-          <div id="item-3-2">
-            <h5>Item 3-2</h5>
-            <p>...</p>
-          </div>
         </div>
-
       </div>
     </div>
-
-
-
     <script src="boostrap/bootstrap.bundle.min.js"></script>
-</body>
-
+  </body>
 </html>
