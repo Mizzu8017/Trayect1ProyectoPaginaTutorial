@@ -1,18 +1,16 @@
-/* imagen de fondo del contenido */
-
-#cont {
-  background-image: url(./img/imgPag1/Fondo.jpg);
-  background-repeat: repeat;
-}
-
 /* Espaciado entre los links del navbar */
-.nav-link {
+#navbarText {
   margin-left: 2rem;
+  color: white;
+  opacity: none;
 }
 
 /* Tipografia */
+/* imagen de fondo del contenido */
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Century Gothic", sans-serif;
+  background-image: url(./img/imgPag1/Fondo.jpg);
+  background-repeat: repeat;
 }
 
 #ribbon {
@@ -44,4 +42,9 @@ body {
   margin-top: -20px;
   z-index: 10;
   box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+/* footer */
+footer {
+  background-color: black;
 }
