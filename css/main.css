@@ -8,6 +8,7 @@
 /* Tipografia */
 /* imagen de fondo del contenido */
 body {
+  /*background-color: #2e303e;*/
   font-family: "Century Gothic", sans-serif;
   background-image: url(./img/imgPag1/Fondo.jpg);
   background-repeat: repeat;
