@@ -8,10 +8,12 @@
 /* Tipografia */
 /* imagen de fondo del contenido */
 body {
-  /*background-color: #2e303e;*/
+  background-color: #282a2d;
   font-family: "Century Gothic", sans-serif;
-  background-image: url(./img/imgPag1/Fondo.jpg);
+  font-size: medium;
+  /*background-image: url(./img/imgPag1/Fondo.jpg);
   background-repeat: repeat;
+  */
 }
 
 #ribbon {
@@ -43,6 +45,10 @@ body {
   margin-top: -20px;
   z-index: 10;
   box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+section {
+  background-color: #50535a;
 }
 
 /* footer */
