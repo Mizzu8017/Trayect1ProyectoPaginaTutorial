@@ -1,0 +1,1245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ram Project</title>
+    <link
+      rel="shortcut icon"
+      href="./img/logoFavicon.png"
+      type="image/x-icon"
+    />
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="./boostrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#navbar-example3"
+    data-bs-smooth-scroll="true"
+    class="scrollspy-example-2"
+    tabindex="0"
+  >
+    <header class="fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="./img/logoFavicon.png"
+              alt="Logo"
+              width="35"
+              height="28"
+              class="d-inline-block align-text-top"
+            />
+            Ram Project
+          </a>
+
+          <div
+            class="disable-buttons buttons-nav scale-nav mx-5"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav border-bottom">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./pag0.html"
+                  >Hardware Y Software</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pag1.html"
+                  >Mantenimiento Hardware</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pag2.html"
+                  >Mantenimiento Software</a
+                >
+              </li>
+            </ul>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end text-bg-dark"
+            tabindex="-1"
+            id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                Ram Project
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul
+                class="navbar-nav justify-content-end flex-grow-1 pe-3 d-lg-none"
+              >
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./index.html"
+                    >Inicio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="./pag0.html"
+                    >Hardware Y Software</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./pag1.html"
+                    >Mantenimiento Hardware</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./pag2.html"
+                    >Mantenimiento Software</a
+                  >
+                </li>
+              </ul>
+              <div class="row d-lg-none">
+                <nav
+                  id="navbar-example2"
+                  class="h-100 flex-column align-items-stretch pe-4 border-end"
+                >
+                  <nav class="nav nav-pills flex-column">
+                    <h4 class="text-white text-center mt-3">Ram Project</h4>
+                    <a class="nav-link" href="#item-1">Hardware</a>
+                    <nav class="nav nav-pills flex-column">
+                      <a class="nav-link ms-3 my-1" href="#item-1-1"
+                        >CPU o Procesador</a
+                      >
+                      <a class="nav-link ms-3 my-1" href="#item-1-2"
+                        >Memoria Ram</a
+                      >
+                      <a class="nav-link ms-3 my-1" href="#item-1-3"
+                        >Almacenamiento interno</a
+                      >
+                      <a class="nav-link ms-3 my-1" href="#item-1-4"
+                        >Fuente de Poder</a
+                      >
+                      <a class="nav-link ms-3 my-1" href="#item-1-5"
+                        >Placa Madre</a
+                      >
+                      <a class="nav-link ms-3 my-1" href="#item-1-6"
+                        >Tarjeta de video (GPU)</a
+                      >
+                    </nav>
+                    <a class="nav-link" href="#item-2">Software</a>
+                    <nav class="nav nav-pills flex-column">
+                      <a class="nav-link ms-3 my-1" href="#item-2-1"
+                        >Software de Sistema</a
+                      >
+                      <a class="nav-link ms-3 my-1" href="#item-2-2">BIOS</a>
+                      <a class="nav-link ms-3 my-1" href="#item-2-3"
+                        >Sistema Operativo</a
+                      >
+                      <a class="nav-link ms-3 my-1" href="#item-2-4"
+                        >Software de Programación</a
+                      >
+                      <a class="nav-link ms-3 my-1" href="#item-2-5"
+                        >Software de Aplicaciones</a
+                      >
+                    </nav>
+                  </nav>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--? Contendor del Carousel -->
+    <div class="container-fluid g-0 mt-5">
+      <div class="row carrucel bg-dark g-0">
+        <div class="col-1 bg-dark scale-carrucel">
+          <a
+            href="https://www.youtube.com/channel/UCV-28rZnosR59rs9_2A4x1Q"
+            target="_blank"
+          >
+            <img
+              src="./img/footer/youtube.png"
+              class="img-fluid scale-redes redes-margin"
+              alt=""
+            />
+          </a>
+          <a href="https://twitter.com/VanitasVermont" target="_blank">
+            <img
+              src="./img/footer/gorjeo.png"
+              class="img-fluid scale-redes redes-margin"
+              alt=""
+            />
+          </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=100086688315757"
+            target="_blank"
+          >
+            <img
+              src="./img/footer/facebook.png"
+              class="img-fluid scale-redes redes-margin"
+              alt=""
+            />
+          </a>
+          <a
+            href="https://github.com/Mizzu8017/Trayect1ProyectoPaginaTutorial.git"
+            target="_blank"
+          >
+            <img
+              src="./img/footer/github.png"
+              class="img-fluid scale-redes redes-margin"
+              alt=""
+            />
+          </a>
+        </div>
+        <!-- Inicio del Carousel -->
+        <div class="col-11 g-0 bg-dark">
+          <div
+            id="carouselExampleCaptions"
+            class="carousel slide carousel-fade"
+            data-bs-ride="carousel"
+          >
+            <!-- Incio de los indicadores -->
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <!-- Fin de los indicadores -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./img/Pag1/Carrucel1.jpg"
+                  class="d-block w-100 img-fluid"
+                  alt="..."
+                />
+                <!-- Inicio del Text 1-->
+                <div class="carousel-caption d-none d-md-block">
+                  <h1 class="border-bottom">
+                    Bienvenido al Apartdo de Hadware y Software
+                  </h1>
+                  <p>
+                    Aqui te ofrecesmos informcación sobre el hardware y Sotfware
+                  </p>
+                </div>
+                <!-- Fin del Text 1-->
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./img/Pag1/Carrucel2.jpg"
+                  class="d-block w-100 img-fluid"
+                  alt="..."
+                />
+                <!-- Inicio del Text 2-->
+                <div class="carousel-caption d-none d-md-block">
+                  <h1 class="border-bottom">
+                    Bienvenido al Apartdo de Hadware y Software
+                  </h1>
+                  <p>Desde los términos mas básicos.</p>
+                </div>
+                <!-- Fin del Text 2-->
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./img/Pag1/Carrucel3.jpg"
+                  class="d-block w-100 img-fluid"
+                  alt="..."
+                />
+                <!-- Inicio del Text 3-->
+                <div class="carousel-caption d-none d-md-block">
+                  <h1 class="border-bottom">
+                    Bienvenido al Apartdo de Hadware y Software
+                  </h1>
+                  <p>Hasta el conocimiento necesario.</p>
+                </div>
+                <!-- Fin del Text 3-->
+              </div>
+            </div>
+          </div>
+          <!-- Fin del Carousel -->
+        </div>
+      </div>
+    </div>
+    <!-- Fin del Contendor del Carousel -->
+
+    <!--!Container General-->
+    <div
+      class="conatiner"
+      data-bs-spy="scroll"
+      data-bs-target="#navbar-example2"
+      data-bs-smooth-scroll="true"
+      class="scrollspy-example-2"
+      tabindex="0"
+    >
+      <!--!Row General-->
+      <div class="row">
+        <!--Inicio del Contenido-->
+        <div class="col-lg-9 col-md-12 col-sm-12">
+          <div class="container">
+            <!--?====================Hadware====================-->
+            <section class="rounded" id="item-1">
+              <div class="row align-items-center mt-5">
+                <div class="col-lg-12 col-md-12">
+                  <h3 class="text-center mb-3">
+                    El Hardware de una Computadora
+                  </h3>
+                  <p class="text-center">
+                    ¿Quieres saber qué hardware está en su computadora?
+                    Convertirse en un equipo pro con nuestra guía rápida de
+                    estos componentes esenciales y sus funciones. Simplemente,
+                    equipo de hardware de los componentes físicos, que un
+                    sistema informático requiere para funcionar. Abarca todo con
+                    una placa de circuito que opera dentro de un PC o portátil;
+                    incluyendo la placa base, tarjeta gráfica, CPU (Unidad
+                    Central de Procesamiento), ventiladores, webcam, fuente de
+                    alimentación, y así sucesivamente. Aunque el diseño de
+                    hardware diferencia entre PCs de escritorio y portátiles
+                    debido a sus diferencias en tamaño, el mismo núcleo de los
+                    componentes se encuentra en ambos. Sin hardware, no habría
+                    manera de ejecutar el software esencial que hace que los
+                    ordenadores tan útil.
+                  </p>
+                </div>
+              </div>
+            </section>
+
+            <!--?====================CPU====================-->
+            <section class="rounded" id="item-1-1">
+              <div class="row align-items-center mt-5">
+                <div class="col-lg-8 col-md-7 col-sm-12">
+                  <h3 class="text-center mb-3">CPU o Procesador</h3>
+                  <p>
+                    Es un pequeño dispositivo que se adapta a la placa base o
+                    madre que se caracteriza por ser el “cerebro” de la
+                    computadora ya que entre sus funciones están la asignación
+                    de todas las tareas que hace un computador también procesa y
+                    clasifica la información para así enviarla al disco duro
+                    para almacenarla. Su nombre CPU proviene de la abreviación
+                    del inglés que significa Central processing unit, traducido
+                    al español como unidad central de procesamiento. Está
+                    compuesto por:
+                  </p>
+                  <!--Accordion 1-->
+                  <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseOne"
+                          aria-expanded="false"
+                          aria-controls="collapseOne"
+                        >
+                          Núcleos
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseOne"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div class="accordion-body">
+                          <!--Contenedor del Acordion 1-->
+                          <div class="container">
+                            <div class="row align-items-center">
+                              <div class="col-9">
+                                Son pequeños componentes físicos que trae el
+                                procesador que se encargan de procesos que este
+                                logra hacer en simultaneo un procesador.
+                              </div>
+                              <div class="col-3">
+                                <img
+                                  src="./img/Pag1/Collapse/Nucleos.jpg"
+                                  class="img-fluid rounded-circle scale-collapse1"
+                                  alt=""
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <!--Fin Contenedor del Acordion 1-->
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseTwo"
+                          aria-expanded="false"
+                          aria-controls="collapseTwo"
+                        >
+                          Hilos
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseTwo"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div class="accordion-body">
+                          <!--Contenedor del Acordion 2-->
+                          <div class="container">
+                            <div class="row align-items-center">
+                              <div class="col-9">
+                                Se pueden definir como núcleos digitales para
+                                poder ayudar en las tareas de los núcleos o
+                                dicho de otra forma se podría decir que se
+                                encargar de los sub procesos de los núcleos.
+                              </div>
+                              <div class="col-3">
+                                <img
+                                  src="./img/Pag1/Collapse/Hilos.png"
+                                  class="img-fluid rounded-circle scale-collapse2"
+                                  alt=""
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <!--Fin Contenedor del Acordion 2-->
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseThree"
+                          aria-expanded="false"
+                          aria-controls="collapseThree"
+                        >
+                          Memoria Cache
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseThree"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div class="accordion-body">
+                          <!--Contenedor del Acordion 3-->
+                          <div class="container">
+                            <div class="row align-items-center">
+                              <div class="col-9">
+                                Esta memoria de pequeña capacidad esta
+                                implementada en el procesador para controlar los
+                                datos del procesador y es la memoria más rápida
+                                con la que cuenta un computador.
+                              </div>
+                              <div class="col-3">
+                                <img
+                                  src="./img/Pag1/Collapse/Memoria_Cache.jpg"
+                                  class="img-fluid rounded-circle scale-collapse2"
+                                  alt=""
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <!--Fin Contenedor del Acordion 3-->
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingFour">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseFour"
+                          aria-expanded="false"
+                          aria-controls="collapseFour"
+                        >
+                          Frecuencia<!--Contenido Cpu-->
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseFour"
+                        class="accordion-collapse collapse collapsed"
+                        aria-labelledby="headingFour"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div class="accordion-body">
+                          <!--Contenedor del Acordion 4-->
+                          <div class="container">
+                            <div class="row align-items-center">
+                              <div class="col-9">
+                                La frecuencia de un procesador se transmite como
+                                la velocidad que tiene un procesador y esta se
+                                mide en Ghz (giga Hertz).
+                              </div>
+                              <div class="col-3">
+                                <img
+                                  src="./img/Pag1/Collapse/Frecuencia.jpg"
+                                  class="img-fluid rounded-circle scale-collapse2"
+                                  alt=""
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <!--Fin Contenedor del Acordion 4-->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Fin Accordion 1-->
+                </div>
+                <div class="col-lg-4 col-md-5 col-sm-12">
+                  <img
+                    src="./img/Pag1/Cpu.jpg"
+                    class="img-fluid mt-5 rounded"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </section>
+            <!--?====================Memoria Ram====================-->
+            <section class="rounded" id="item-1-2">
+              <div class="row align-items-center mt-5">
+                <div class="col-lg-8 col-md-7 col-sm-12">
+                  <h3 class="text-center mb-3">Memoria Ram</h3>
+                  <p>
+                    Memoria ram o memoria de almacenamiento o acceso aleatorio
+                    es un dispositivo que se conecta en la placa madre por lo
+                    general cerca del procesador, es una unidad de
+                    almacenamiento volátil es decir que los datos que almacena
+                    no son permanentes ya que esta está constantemente
+                    compartiendo información con el procesador y disco duro para
+                    que esta información sea almacenada permanente en el disco
+                    duro, la memoria ram almacena los datos que se están usando
+                    en ese momento por la máquina, estos datos pueden ser datos
+                    de video, aplicaciones abiertas en ese momento como
+                    navegadores, juegos, entre otros, y datos del sistema
+                    operativos y aplicaciones de segundo plano. Esta mide su
+                    capacidad en gb (giga bytes) y trabaja a una frecuencia de
+                    reloj que son los ghz (giga Hertz)
+                  </p>
+                </div>
+                <div class="col-lg-4 col-md-5 col-sm-12">
+                  <img
+                    src="./img/Pag1/memoriaRam.jpg"
+                    class="img-fluid rounded"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </section>
+
+            <!--?====================Almacenamiento====================-->
+            <section class="rounded" id="item-1-3">
+              <div class="row align-items-center mt-5">
+                <div class="col-lg-8 col-md-7 col-sm-12">
+                  <h3 class="text-center mb-3">Almacenamiento Interno</h3>
+                  <p>
+                    Guardan datos o información no volátiles es decir
+                    permanentes que guarda el sistema, hay cuatro tipos de estos
+                    en la actualidad:
+                  </p>
+                  <!--Accordion 1-->
+                  <div class="accordion" id="accordionExample2">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingFive">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseFive"
+                          aria-expanded="false"
+                          aria-controls="collapseFive"
+                        >
+                          Disco duro (HDD)
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseFive"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingFive"
+                        data-bs-parent="#accordionExample2"
+                      >
+                        <div class="accordion-body">
+                          <!--Contenedor del Acordion 5-->
+                          <div class="container">
+                            <div class="row align-items-center">
+                              <div class="col-9">
+                                Se caracteriza por ser el más antiguo de los
+                                tres y gracias a esto lo hace barato en el
+                                mercado por ende se usan mucho a pesar de una
+                                arquitectura antigua como los discos mecánicos
+                                que guardan la información sus tiempos de
+                                lecturas y escritura son muy lentas comparado
+                                con la competencia pero se suele usar para
+                                servidores, se conecta vía SATA y por lo general
+                                no soporta el nuevo SATA 3 así que no logra
+                                aprovechar al máximo esta tecnología.
+                              </div>
+                              <div class="col-3">
+                                <img
+                                  src="./img/Pag1/Collapse/Disco_Duro.png"
+                                  class="img-fluid rounded-circle scale-collapse2"
+                                  alt=""
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <!--Fin Contenedor del Acordion 5-->
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingSix">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseSix"
+                          aria-expanded="false"
+                          aria-controls="collapseSix"
+                        >
+                          SSD
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseSix"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingSix"
+                        data-bs-parent="#accordionExample2"
+                      >
+                        <div class="accordion-body">
+                          <!--Contenedor del Acordion 6-->
+                          <div class="container">
+                            <div class="row align-items-center">
+                              <div class="col-9">
+                                Es el sucesor del disco duro este cuenta con una
+                                tecnología más avanzada que los discos duros
+                                gracias a estos le permite tiempos de lectura y
+                                escritura rápidos, se conecta vía SATA y soporta
+                                la generación 3 de la misma haciendo que se
+                                aproveche lo máximo posible sus velocidades de
+                                transferencia.
+                              </div>
+                              <div class="col-3">
+                                <img
+                                  src="./img/Pag1/Collapse/SSD.jpg"
+                                  class="img-fluid rounded-circle scale-collapse2"
+                                  alt=""
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <!--Fin Contenedor del Acordion 6-->
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingSeven">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseSeven"
+                          aria-expanded="false"
+                          aria-controls="collapseSeven"
+                        >
+                          SSD m.2
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseSeven"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingSeven"
+                        data-bs-parent="#accordionExample2"
+                      >
+                        <div class="accordion-body">
+                          <!--Contenedor del Acordion 7-->
+                          <div class="container">
+                            <div class="row align-items-center">
+                              <div class="col-9">
+                                Este tipo de almacenamiento es el que tiene las
+                                mejores velocidades de transferencia en la
+                                actualidad se caracteriza por tener un tamaño
+                                discreto y deja de usar el sata convencional y
+                                como su conexión (llamada m.2) no necesita
+                                ningún tipo de cable hace que el delay sea menor
+                                y aprovechando al máximo sus altas velocidades
+                                de transferencia se aprovechen al máximo.
+                              </div>
+                              <div class="col-3">
+                                <img
+                                  src="./img/Pag1/Collapse/SSD M2.png"
+                                  class="img-fluid rounded-circle scale-collapse2"
+                                  alt=""
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <!--Fin Contenedor del Acordion 7-->
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingEight">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseEight"
+                          aria-expanded="false"
+                          aria-controls="collapseEight"
+                        >
+                          SSD m.2 nvme
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseEight"
+                        class="accordion-collapse collapse collapsed"
+                        aria-labelledby="headingEight"
+                        data-bs-parent="#accordionExample2"
+                      >
+                        <div class="accordion-body">
+                          <!--Contenedor del Acordion 8-->
+                          <div class="container">
+                            <div class="row align-items-center">
+                              <div class="col-9">
+                                Este es la evolución del m.2 tradicional se
+                                caracteriza por tener conexión más rápida ya que
+                                posee una conexión PCI-E y su lectura es en
+                                paralelo es decir que lee datos en simultaneo o
+                                dicho de otra manera lee varios datos a la vez
+                              </div>
+                              <div class="col-3">
+                                <img
+                                  src="./img/Pag1/Collapse/NVMe.jpg"
+                                  class="img-fluid rounded-circle scale-collapse2"
+                                  alt=""
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <!--Fin Contenedor del Acordion 8-->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Fin Accordion 2-->
+                </div>
+                <div class="col-lg-4 col-md-5 col-sm-12">
+                  <img
+                    src="./img/Pag1/discoDuro.jpeg"
+                    class="img-fluid mt-5 rounded"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </section>
+
+            <!--?====================Fuente de Poder====================-->
+            <section class="rounded" id="item-1-4">
+              <div class="row align-items-center mt-5">
+                <div class="col-lg-8 col-md-7 col-sm-12">
+                  <h3 class="text-center mb-3">Fuente de Poder</h3>
+                  <p>
+                    Genérica: Estas fuentes de poder no pasan por ningún tipo de
+                    verificación o pruebas antes de ser comercializadas, tienen
+                    como característica el ser de muy bajo costo y no entregar
+                    la energía que promete entregando incluso hasta la mitad o
+                    menos de lo prometido e incluye energía poco estable.
+                  </p>
+                  <p>
+                    Certificada: Brindan energía más estable y pasan por pruebas
+                    antes de ser comerciales su certificación depende de las
+                    pruebas que se le hacen y son del tipo 80plus se subdividen
+                    en: White, bronze, silver, platinum,gold,titanium.
+                  </p>
+                </div>
+                <div class="col-lg-4 col-md-5 col-sm-12">
+                  <img
+                    src="./img/Pag1/PSU.jpg"
+                    class="img-fluid rounded"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </section>
+
+            <!--?====================Placa Madre====================-->
+            <section class="rounded" id="item-1-5">
+              <div class="row align-items-center mt-5">
+                <div class="col-lg-8 col-md-7 col-sm-12">
+                  <h3 class="text-center mb-3">Placa Madre</h3>
+                  <p>
+                    En este dispositivo electrónico es donde todas las partes
+                    del computador se conectan para estar conectados entre sí,
+                    también regula y distribuye la energía para todos los
+                    componentes del computador, es encargada de regular las
+                    información de los componentes con la ayuda del procesador
+                    con un componente llamado chipset que se subdivide en dos
+                    partes las cuales son: northbridge y southbridge.
+                  </p>
+                </div>
+                <div class="col-lg-4 col-md-5 col-sm-12">
+                  <img
+                    src="./img/Pag1/placabase.jpg"
+                    class="img-fluid rounded"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </section>
+
+            <!--?====================GPU====================-->
+            <section class="rounded" id="item-1-6">
+              <div class="row align-items-center mt-5">
+                <div class="col-lg-8 col-md-7 col-sm-12">
+                  <h3 class="text-center mb-3">Tarjeta de video (GPU)</h3>
+                  <p>
+                    Es una tarjeta que se conecta vía pci-e y como su nombre
+                    dice se encarga de procesar videos reduciéndole la carga al
+                    procesador ya que la tarjeta gráfica trae un pequeño
+                    procesador llamado GPU que se encarga exclusivamente para
+                    transmitir o transformar código binario a una interfaz
+                    exclusiva para el usuario, cuenta con algo llamado VRAM que
+                    tiene la misma función que una memoria ram pero a diferencia
+                    de esta es que la VRAM es mas rápida y trabaja con datos en
+                    paralelo.
+                  </p>
+                </div>
+                <div class="col-lg-4 col-md-5 col-sm-12">
+                  <img
+                    src="./img/Pag1/gpu.jpg"
+                    class="img-fluid rounded"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </section>
+
+            <!--?====================Software====================-->
+            <section class="rounded" id="item-2">
+              <div class="row align-items-center mt-5">
+                <div class="col-lg-12 col-md-12">
+                  <h3 class="text-center mb-3">
+                    El Software de una Computadora
+                  </h3>
+                  <p>
+                    Se conoce como software, logicial o soporte lógico al
+                    sistema formal de un sistema informático, que comprende el
+                    conjunto de los componentes lógicos necesarios que hace
+                    posible la realización de tareas específicas, en
+                    contraposición a los componentes físicos que son llamados
+                    hardware.
+                  </p>
+                  <p>
+                    Se define como un programa o aplicación que está dedicado
+                    para realizar una o un conjunto de tareas, hay muchos tipos
+                    de software que están programados o diseñados para hacer
+                    tareas para ayudar al usuario así facilitando algunas
+                    tareas.
+                  </p>
+                </div>
+              </div>
+            </section>
+
+            <!--?====================Software de Sistema====================-->
+            <section class="rounded" id="item-2-1">
+              <div class="row align-items-center mt-5">
+                <div class="col-lg-8 col-md-7 col-sm-12">
+                  <h3 class="text-center mb-3">Software de Sistema</h3>
+                  <p>
+                    Este tipo de software es especial ya que tiene comunicación
+                    directa con el hardware así pudiendo modificar alguna de sus
+                    acciones, también ofrecen manipulación sobre otros software
+                    y así ayudándolos con soportes podríamos tener.
+                  </p>
+                </div>
+                <div class="col-lg-4 col-md-5 col-sm-12">
+                  <img
+                    src="./img/Pag1/Sistema1.jpg"
+                    class="img-fluid rounded"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </section>
+
+            <!--?====================Bios====================-->
+            <section class="rounded" id="item-2-2">
+              <div class="row align-items-center mt-5">
+                <div class="col-lg-8 col-md-7 col-sm-12">
+                  <h3 class="text-center mb-3">BIOS</h3>
+                  <p>
+                    Este es el único software que trae pre-instalado de fábrica,
+                    este es el principal software del sistema ya que se encarga
+                    del encendido del PC corrigiendo posibles errores y así
+                    poder que encienda sin ningún problema, por otra parte trae
+                    opciones de configuración del hardware así que gracias a el
+                    nace la práctica del overclock que se puede definir como la
+                    configuración de componentes como por ejemplo procesador y
+                    memoria RAM para tener un mayor rendimiento aumentándole
+                    características como sus velocidades de reloj.
+                  </p>
+                </div>
+                <div class="col-lg-4 col-md-5 col-sm-12">
+                  <img
+                    src="./img/Pag1/Bios.jpg"
+                    class="img-fluid rounded"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </section>
+
+            <!--?====================Sistema Operativo====================-->
+            <section class="rounded" id="item-2-3">
+              <div class="row align-items-center mt-5">
+                <div class="col-lg-8 col-md-7 col-sm-12">
+                  <h3 class="text-center mb-3">Sistema Operativo</h3>
+                  <p>
+                    Este software es indispensable en cualquier dispositivo
+                    inteligente ya que se encarga de correr o ejecutar todos las
+                    aplicaciones que desee un usuario gracias a la interfaz que
+                    este posee sin contar que también está encargado de la
+                    administración del hardware.
+                  </p>
+                </div>
+                <div class="col-lg-4 col-md-5 col-sm-12">
+                  <img
+                    src="./img/Pag1/Sistemas.jpg"
+                    class="img-fluid rounded"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </section>
+
+            <!--?====================Software de Programación====================-->
+            <section class="rounded" id="item-2-4">
+              <div class="row align-items-center mt-5">
+                <div class="col-lg-8 col-md-7 col-sm-12">
+                  <h3 class="text-center mb-3">Software de Programación</h3>
+                  <p>
+                    Este tipo de software está ambientado y especializado en la
+                    creación de aplicaciones o programas informáticos mediante
+                    herramientas, técnicas y un lenguaje de programación. Como
+                    ejemplo de estos tenemos: compiladores de códigos y editores
+                    multimedia.
+                  </p>
+                </div>
+                <div class="col-lg-4 col-md-5 col-sm-12">
+                  <img
+                    src="./img/Pag1/Programacion.jpg"
+                    class="img-fluid rounded"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </section>
+
+            <!--?====================Software de Aplicaciones====================-->
+            <section class="rounded" id="item-2-5">
+              <div class="row align-items-center mt-5">
+                <div class="col-lg-8 col-md-7 col-sm-12">
+                  <h3 class="text-center mb-3">Software de Aplicaciones</h3>
+                  <p>
+                    Estos software como su nombre lo dice son aplicaciones que
+                    ayudan a los usuarios a hacer una o un conjunto de tareas
+                    específicas a la vez, tenemos ejemplos de este, videojuegos,
+                    reproductores multimedia, u otras aplicaciones dedicadas
+                    para trabajo como Excel o Word.
+                  </p>
+                </div>
+                <div class="col-lg-4 col-md-5 col-sm-12">
+                  <img
+                    src="./img/Pag1/Aplicacion.jpg"
+                    class="img-fluid rounded"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+        <!--Fin del Contenido-->
+        <div class="col-3">
+          <!--?====================Indice====================-->
+          <div class="sticky-top mt-5 scale-indice">
+            <!-- Inicio del Indice -->
+            <div class="bg-dark d-none d-lg-block rounded">
+              <nav
+                id="navbar-example3"
+                class="h-100 flex-column align-items-stretch pe-4 border-end"
+              >
+                <nav class="nav nav-pills flex-column">
+                  <h4 class="text-white text-center mt-3">Ram Project</h4>
+                  <a class="nav-link mt-1" href="#item-1">Hardware</a>
+                  <nav class="nav nav-pills flex-column">
+                    <a class="nav-link ms-3 my-1" href="#item-1-1"
+                      >CPU o Procesador</a
+                    >
+                    <a class="nav-link ms-3 my-1" href="#item-1-2"
+                      >Memoria Ram</a
+                    >
+                    <a class="nav-link ms-3 my-1" href="#item-1-3"
+                      >Almacenamiento interno</a
+                    >
+                    <a class="nav-link ms-3 my-1" href="#item-1-4"
+                      >Fuente de Poder</a
+                    >
+                    <a class="nav-link ms-3 my-1" href="#item-1-5"
+                      >Placa Madre</a
+                    >
+                    <a class="nav-link ms-3 my-1" href="#item-1-6"
+                      >Tarjeta de video (GPU)</a
+                    >
+                  </nav>
+                  <a class="nav-link" href="#item-2">Software</a>
+                  <nav class="nav nav-pills flex-column">
+                    <a class="nav-link ms-3 my-1" href="#item-2-1"
+                      >Software de Sistema</a
+                    >
+                    <a class="nav-link ms-3 my-1" href="#item-2-2">BIOS</a>
+                    <a class="nav-link ms-3 my-1" href="#item-2-3"
+                      >Sistema Operativo</a
+                    >
+                    <a class="nav-link ms-3 my-1" href="#item-2-4"
+                      >Software de Programación</a
+                    >
+                    <a class="nav-link ms-3 my-1" href="#item-2-5"
+                      >Software de Aplicaciones</a
+                    >
+                  </nav>
+                </nav>
+              </nav>
+            </div>
+          </div>
+          <!--Fin Indice-->
+        </div>
+      </div>
+      <!--!Fin del Row General-->
+      <div>
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                  Sugerencia Enviada.
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                Muchas Gracias por esa sugerencia, nos ayudas mucho a mejorar.
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-bs-dismiss="modal"
+                >
+                  Cerrar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="mt-5 bg-dark">
+        <div class="container-fluid">
+          <div class="row justify-content-md-center bg-dark">
+            <div class="col-lg-2 d-none d-lg-block">
+              <img
+                src="./img/logo7.png"
+                class="img-fluid rounded-circle mt-3 mb-3"
+                alt=""
+              />
+            </div>
+            <div class="col-lg-6 col-md-8 col-sm-12">
+              <div id="form">
+                <h3 class="mt-4 text-bg-dark">
+                  Envía tu Sugerencia para Mejorar
+                </h3>
+                <div class="form-floating mt-3 mb-3">
+                  <form class="form-floating">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="floatingInputValue"
+                      placeholder="name@example.com"
+                    />
+                    <label for="floatingInputValue">Correo Electronico</label>
+                  </form>
+                </div>
+                <div class="form-floating mb-3">
+                  <textarea
+                    class="form-control"
+                    placeholder="Leave a comment here"
+                    id="floatingTextarea2"
+                    style="height: 100px"
+                  ></textarea>
+                  <label for="floatingTextarea2">Sugerecia</label>
+                </div>
+                <button
+                  type="reset"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Enviar Sugerencia
+                </button>
+                <a type="button" class="btn btn-primary" href="./login.html">
+                  Registrate
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-1 col-md-2 mt-5 footer-disable">
+              <a
+                href="https://www.youtube.com/channel/UCV-28rZnosR59rs9_2A4x1Q"
+                target="_blank"
+              >
+                <img
+                  src="./img/footer/youtube.png"
+                  class="img-fluid scale-footer"
+                  alt=""
+                />
+              </a>
+              <a href="https://twitter.com/VanitasVermont" target="_blank">
+                <img
+                  src="./img/footer/gorjeo.png"
+                  class="img-fluid scale-footer"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="col-lg-1 col-md-2 mt-5 footer-buttons footer-disable">
+              <a
+                href="https://www.facebook.com/profile.php?id=100086688315757"
+                target="_blank"
+              >
+                <img
+                  src="./img/footer/facebook.png"
+                  class="img-fluid scale-footer"
+                  alt=""
+                />
+              </a>
+              <a
+                href="https://github.com/Mizzu8017/Trayect1ProyectoPaginaTutorial.git"
+                target="_blank"
+              >
+                <img
+                  src="./img/footer/github.png"
+                  class="img-fluid scale-footer"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-2 footer-buttons d-none d-sm-block d-md-none">
+                <a
+                  href="https://www.youtube.com/channel/UCV-28rZnosR59rs9_2A4x1Q"
+                  target="_blank"
+                >
+                  <img
+                    src="./img/footer/youtube.png"
+                    class="img-fluid scale-footer"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="col-2 footer-buttons d-none d-sm-block d-md-none">
+                <a href="https://twitter.com/VanitasVermont" target="_blank">
+                  <img
+                    src="./img/footer/gorjeo.png"
+                    class="img-fluid scale-footer"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="col-2 footer-buttons d-none d-sm-block d-md-none">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100086688315757"
+                  target="_blank"
+                >
+                  <img
+                    src="./img/footer/facebook.png"
+                    class="img-fluid scale-footer"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="col-2 footer-buttons d-none d-sm-block d-md-none">
+                <a
+                  href="https://github.com/Mizzu8017/Trayect1ProyectoPaginaTutorial.git"
+                  target="_blank"
+                >
+                  <img
+                    src="./img/footer/github.png"
+                    class="img-fluid scale-footer"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="clearfix">
+              <p class="text-bg-dark float-end">&copy; Ram Project 2022</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!--!Fin del Container General-->
+
+    <!--? Fin de la primera section Hardware -->
+
+    <script src="./JS/subimt.js"></script>
+    <script src="./boostrap/bootstrap.min.js"></script>
+  </body>
+</html>
