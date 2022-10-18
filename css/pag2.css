@@ -1,0 +1,36 @@
+body {
+  font-family: "Century Gothic", sans-serif;
+  font-size: medium;
+  background-image: url(./fondo.jpg);
+  background-repeat: repeat;
+}
+
+/* navbar */
+.buttons-nav {
+  padding-left: 230px;
+}
+
+/* Navbar-center */
+@media (max-width: 1166px) {
+  .scale-nav {
+    padding-left: 20px;
+  }
+}
+
+/* footer */
+.scale-footer {
+  transform: scale(0.6);
+}
+
+@media (max-width: 767px) {
+  .footer-disable {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-buttons {
+    transform: scale(0.9);
+    margin-top: 20px;
+  }
+}
