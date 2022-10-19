@@ -89,6 +89,48 @@ section {
   transform: scale(0.7);
 }
 
+.carta-tip {
+  width: 560px;
+}
+
+@media (max-width: 1527px) {
+  .carta-tip {
+    width: 500px;
+  }
+}
+
+@media (max-width: 1387px) {
+  .carta-tip {
+    width: 450px;
+  }
+}
+@media (max-width: 1265px) {
+  .carta-tip {
+    width: 400px;
+  }
+}
+@media (max-width: 1147px) {
+  .carta-tip {
+    width: 350px;
+  }
+}
+@media (max-width: 855px) {
+  .carta-tip {
+    width: 300px;
+  }
+}
+@media (max-width: 766px) {
+  .carta-tip {
+    width: 500px;
+  }
+}
+
+@media (max-width: 577px) {
+  .carta-tip {
+    width: 350px;
+  }
+}
+
 /* footer */
 .scale-footer {
   transform: scale(0.6);

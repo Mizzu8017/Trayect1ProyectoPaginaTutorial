@@ -68,8 +68,11 @@ section {
 .section-pag0-text {
   letter-spacing: 1.3px;
 }
-.scale-pag {
+.text-hard {
   margin-right: -80px;
+}
+.scale-pag {
+  padding-right: 100px;
 }
 /* cotenedor de a img */
 .img-contenedor {
@@ -135,7 +138,12 @@ section {
 /* cartas */
 
 .carta-fila {
-  transform: scale(0.9);
+  transform: scale(0.5);
+}
+@media (max-width: 766px) {
+  .scale-carta {
+    transform: scale(0.8);
+  }
 }
 
 .carta {
