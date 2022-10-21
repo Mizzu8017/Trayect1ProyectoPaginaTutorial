@@ -4,6 +4,37 @@ body {
   background-image: url(./fondo.jpg);
   background-repeat: repeat;
 }
+section {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.section1 {
+  background-color: #3a3a3c;
+  color: #fffefe;
+  box-shadow: 6px 6px 0px rgb(238, 255, 49);
+}
+
+.titu-section1 {
+  color: rgb(238, 255, 49);
+}
+
+.section2 {
+  background-color: #3a3a3c;
+  color: #fffefe;
+  box-shadow: 6px 6px 0px #00ff7f;
+}
+
+.titu-section2 {
+  color: #00ff7f;
+}
+
+.alerts {
+  background-color: #3a3a3c;
+}
 
 /* navbar */
 .buttons-nav {
@@ -14,6 +45,75 @@ body {
 @media (max-width: 1166px) {
   .scale-nav {
     padding-left: 20px;
+  }
+}
+
+.carrucel {
+  border-radius: 1px;
+  box-shadow: 0px 10px 0px 15px black;
+}
+
+.scale-carrucel {
+  max-width: 60px;
+}
+
+.scale-redes {
+  margin-top: 100px;
+  transform: scale(0.5);
+}
+
+@media (max-width: 1390px) {
+  .redes-margin {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 1390px) {
+  .scale-inicio {
+    max-height: 500px;
+    max-width: 1300px;
+  }
+}
+
+.carta-tip {
+  width: 560px;
+}
+
+@media (max-width: 1527px) {
+  .carta-tip {
+    width: 500px;
+  }
+}
+
+@media (max-width: 1387px) {
+  .carta-tip {
+    width: 450px;
+  }
+}
+@media (max-width: 1265px) {
+  .carta-tip {
+    width: 400px;
+  }
+}
+@media (max-width: 1147px) {
+  .carta-tip {
+    width: 350px;
+  }
+}
+@media (max-width: 855px) {
+  .carta-tip {
+    width: 300px;
+  }
+}
+@media (max-width: 766px) {
+  .carta-tip {
+    width: 500px;
+  }
+}
+
+@media (max-width: 577px) {
+  .carta-tip {
+    width: 350px;
   }
 }
 
