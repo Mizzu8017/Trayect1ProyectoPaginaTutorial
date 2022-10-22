@@ -126,6 +126,16 @@ section {
   }
 }
 
+.scale-videos {
+  height: 500px;
+}
+
+@media (max-width: 576px) {
+  .scale-videos {
+    height: 200px;
+  }
+}
+
 /* footer */
 .scale-footer {
   transform: scale(0.6);

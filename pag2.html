@@ -261,7 +261,7 @@
               </section>
 
               <!-- tercer paso -->
-              <section class="rounded section1">
+              <section class="rounded section1 d-sm-none d-md-block">
                 <h3 class="text-center mb-3 titu-section1">Tercer Paso</h3>
                 <p class="">
                   Para instalar un nuevo sistema operativo hay que configurar la
@@ -372,6 +372,69 @@
                 </div>
               </section>
 
+              <!-- tercer paso -->
+              <section class="rounded section1 d-md-none d-sm-block">
+                <h3 class="text-center mb-3 titu-section1">Tercer Paso</h3>
+                <p class="">
+                  Para instalar un nuevo sistema operativo hay que configurar la
+                  preferencia de arrenque desde la bios y se realiza de la
+                  siguiente manera:
+                </p>
+                <p>
+                  Hay que abrir la bios, para abrir la BIOS primero se procede
+                  tener el equipo totalmente apagado y se enciende y rápidamente
+                  se procede a presionar la tecla que permite el acceso a BIOS
+                  (depende del fabricante y modelo de placa madre es el botón de
+                  acceso de BIOS generalmente son F2, F11, F10 si tiene laptop
+                  tiene que precionar la tecla FN más un número por ejemplo,
+                  FN+2, FN+10)
+                </p>
+                <p>
+                  Ya una vez dento de BIOS se busca la opción de Boot o Boot
+                  priority (Esto puede variar depende de cada computador) luego
+                  se cambia el primer Boot a USB, segundo hard disc y como
+                  tercero el de su preferencia (en el apartado de "Hard disc"
+                  puede cambiar depende de su sistema de almacenamiento sólido
+                  ya sea disco duro,SSD,M.2 o M.2)
+                </p>
+                <p>
+                  <button
+                    class="btn btn-outline-warning"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseWidthExample2"
+                    aria-expanded="false"
+                    aria-controls="collapseWidthExample2"
+                  >
+                    Click para ver un Tip
+                  </button>
+                </p>
+                <div>
+                  <div
+                    class="collapse collapse-horizontal"
+                    id="collapseWidthExample2"
+                  >
+                    <div
+                      class="card card-body carta-tip mb-2 alerts text-warning"
+                    >
+                      <p>
+                        Con esto ya su computador está listo solo tiene que
+                        guardar los ajustes que se le realizó a la BIOS y al
+                        momento de encenderla accederá automáticamente a la
+                        instalación del nuevo sistema operativo
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="img-section">
+                  <img
+                    src="./img/imgPag3/bios.jpg"
+                    class="img-fluid rounded"
+                    alt=""
+                  />
+                </div>
+              </section>
+
               <!-- cuarto paso -->
               <section class="rounded section1">
                 <h3 class="text-center mb-3 titu-section1">Cuarto Paso</h3>
@@ -438,8 +501,7 @@
                 <div>
                   <iframe
                     src="https://www.youtube.com/embed/LTdafsH0ohM"
-                    height="500px"
-                    class="d-block w-100"
+                    class="d-block w-100 scale-videos"
                     title="Practica de Formtaeo"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
