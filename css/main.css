@@ -82,8 +82,20 @@ section {
   transform: scale(0.8, 1.3);
 }
 
+@media (max-width: 766px) {
+  .scale-collapse1 {
+    transform: scale(0.8, 0.9);
+  }
+}
+
 .scale-collapse2 {
   transform: scale(0.9, 1.2);
+}
+
+@media (max-width: 766px) {
+  .scale-collapse2 {
+    transform: scale(0.9, 0.9);
+  }
 }
 
 /* indice */
