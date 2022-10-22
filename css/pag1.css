@@ -139,6 +139,18 @@ section {
   }
 }
 
+@media (max-width: 427px) {
+  .carta-tip {
+    width: 300px;
+  }
+}
+
+@media (max-width: 374px) {
+  .carta-tip {
+    width: 250px;
+  }
+}
+
 .scale-videos {
   height: 500px;
 }
