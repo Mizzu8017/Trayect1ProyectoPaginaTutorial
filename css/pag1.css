@@ -50,7 +50,6 @@ section {
 }
 
 /* Carrucel */
-
 .carrucel {
   border-radius: 1px;
   box-shadow: 0px 10px 0px 15px black;
@@ -66,7 +65,7 @@ section {
 .scale-carrucel {
   max-width: 60px;
 }
-
+/* iconos de redes carrucel */
 .scale-redes {
   margin-top: 100px;
   transform: scale(0.5);
@@ -96,6 +95,8 @@ section {
   margin-bottom: -70px;
   transform: scale(0.7);
 }
+
+/* click aqui para ver un tip */
 
 .carta-tip {
   width: 560px;

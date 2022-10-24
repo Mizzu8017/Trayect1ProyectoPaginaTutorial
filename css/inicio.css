@@ -38,6 +38,7 @@ section {
     padding-left: 20px;
   }
 }
+/* carrucel */
 .carrucel {
   border-radius: 1px;
   box-shadow: 0px 10px 0px 15px black;
@@ -53,7 +54,7 @@ section {
 .scale-carrucel {
   max-width: 60px;
 }
-
+/* botones redes sociales */
 .scale-redes {
   margin-top: 100px;
   transform: scale(0.5);
@@ -71,31 +72,10 @@ section {
   }
 }
 
-.fondo-inicio {
-  z-index: 1;
-}
-
-.img-incio {
-  position: absolute;
-  top: 300px;
-  width: 300px;
-  height: 300px;
-  text-align: center;
-  z-index: 2;
-}
-
-.section-inicio {
-  transform: scale(0.8);
-  font-size: 20px;
-  letter-spacing: 1.3px;
-}
-
 .section-pag0-text {
   letter-spacing: 1.3px;
 }
-.text-hard {
-  margin-right: -80px;
-}
+
 .scale-pag {
   padding-right: 100px;
 }
@@ -114,7 +94,7 @@ section {
   }
 }
 
-/* cotenedor de a img */
+/* cotenedor de a img + animacion */
 .img-contenedor {
   justify-content: center;
   align-items: center;
@@ -189,8 +169,7 @@ section {
   margin: auto;
 }
 
-/* cartas */
-
+/* comunidad */
 .escuela {
   color: #fffefe;
   background-color: #303032;
@@ -202,17 +181,10 @@ section {
   color: #cd853f;
 }
 
-.carta-fila {
+/* quienes somos */
+
+.carta-title {
   color: #fffefe;
-  background-color: #303032;
-  transform: scale(0.85);
-  border-radius: 5px;
-  box-shadow: 6px 6px 0px #cd853f;
-}
-@media (max-width: 766px) {
-  .scale-carta {
-    transform: scale(0.7);
-  }
 }
 
 .carta {
@@ -222,23 +194,35 @@ section {
   margin-bottom: 40px;
 }
 
-.carta-title {
-  color: #fffefe;
-}
-
-@media (max-width: 767px) {
+@media (max-width: 292px) {
   .carta {
+    margin-top: 10px;
     margin-left: 0px;
     margin-right: 0px;
   }
 }
 
+.carta-fila {
+  color: #fffefe;
+  background-color: #303032;
+  transform: scale(0.85);
+  border-radius: 5px;
+  box-shadow: 6px 6px 0px #cd853f;
+}
+
 @media (max-width: 699px) {
   .carta-fila {
-    margin-left: 62px;
+    margin-left: 0px;
     justify-content: center;
   }
 }
+
+@media (max-width: 766px) {
+  .scale-carta {
+    transform: scale(0.7);
+  }
+}
+
 /* footer */
 .scale-footer {
   transform: scale(0.6);
